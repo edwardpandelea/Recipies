@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Nirequa;
+    src: url(fonts/Nirequa.otf);
+}
+html{
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+img
+{
+    box-shadow: 3px 3px 10px 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+body
+{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Nirequa';
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(220,73,129,1) 35%, rgba(0,212,255,1) 84%);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+h1
+{
+    text-align: center;
+}
+
+a:visited
+{
+    color: none;
+}
+
+.listOfRecipies
+{
+    text-align: center;
+    list-style-type: none;
+}
+
+.Steps
+{
+    text-align: left;
+    list-style-type: decimal;
+}
+
+
+a,.listItem:link
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #DC853D;
+}
